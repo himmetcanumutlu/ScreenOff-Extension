@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "ScreenOff",
+  "version": "1.0",
+  "description": "A lightweight extension that instantly turns your browser into a full-screen pitch-black canvas with a single click. Developed by Himmet Can Umutlu.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "Turn Screen Off",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
